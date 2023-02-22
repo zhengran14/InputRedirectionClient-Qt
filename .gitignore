@@ -38,3 +38,5 @@
 # QMake build
 Makefile
 .qmake.stash
+
+build-InputRedirectionClient-*/
