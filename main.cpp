@@ -268,6 +268,7 @@ private:
 
     void autoATimerTimeout() {
         sendFrame(hidButtonsABString[0]);
+        sendFrame(hidButtonsABString[0]);
         timesSpinBox->setValue(timesSpinBox->value() - 1);
         qDebug() << timesSpinBox->value();
         if (timesSpinBox->value() <= 0) {
